@@ -1,0 +1,25 @@
+{
+  "name": "advent-of-code-2017",
+  "version": "0.1.0",
+  "description": "Advent of Code 2017",
+  "author": "Andrew Artajos <andrew.artajos@gmail.com>",
+  "scripts": {
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js"
+  },
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fodra/advent-of-code-2017"
+  },
+  "bugs": {
+    "url": "https://github.com/fodra/advent-of-code-2017/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "jasmine": "^2.8.0"
+  },
+  "preferGlobal": false,
+  "private": true,
+  "license": "MIT"
+}
