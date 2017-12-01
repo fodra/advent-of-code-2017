@@ -2,6 +2,9 @@
 
 function captcha(data) {
     let sum = 0;
+    
+    if (!data.length) return sum;
+    
     let start = 0;
     let end = data.length - 1;
 
